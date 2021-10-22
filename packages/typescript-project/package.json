@@ -1,0 +1,27 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "lerna example typescript",
+  "keywords": [
+    "lerna",
+    "typescript"
+  ],
+  "author": "Mario Julian Baron Rueda <mariobaron@gmail.com>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "main": "lib/typescript-project.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start" : "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
